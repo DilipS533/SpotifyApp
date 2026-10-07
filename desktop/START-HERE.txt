@@ -1,0 +1,32 @@
+GROOVE FOR WINDOWS 10 / 11 (64-bit)
+===================================
+
+1. Extract the entire ZIP into a folder on your computer.
+2. Open Groove.exe inside that folder. Do not move the EXE out of it.
+3. Start music in your music app or browser.
+
+Groove automatically follows your Windows now-playing media session.
+No Spotify API key, Spotify Premium, Node.js, or .NET installation is needed.
+The app does not upload your music or require a local web server.
+
+If Groove asks for WebView2 Runtime, install Microsoft's official
+Evergreen Runtime and then reopen Groove:
+https://developer.microsoft.com/microsoft-edge/webview2
+
+Settings > Windows media:
+- Select a specific music app or follow the Windows active app.
+- Enable Always on top to keep Groove above other windows.
+
+Use the top grip to move the window. Mini/normal/expanded changes its size.
+Use Space to play/pause. Preferences are saved locally.
+
+Only apps that publish Windows media information can be detected.
+Some apps don't provide artwork, seeking, shuffle, or repeat.
+Queue and app volume aren't available from this Windows interface.
+Use your source app's queue and the Windows volume mixer instead.
+
+This is an unsigned portable application. Windows may show a trust warning.
+The Windows binaries were cross-compiled successfully; actual media access
+and native window behavior still require testing on a Windows computer.
+
+Windows 10 version 1809+ / Windows 11, x64 only.
