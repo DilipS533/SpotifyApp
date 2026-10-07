@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.env
+.env.*
+desktop/**/bin/
+desktop/**/obj/
+desktop/publish/
+public/downloads/*.zip
